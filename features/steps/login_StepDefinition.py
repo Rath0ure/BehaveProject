@@ -6,12 +6,13 @@ from features.steps.webElements_helper import *
 
 @given("launch web browser")
 def launch_web(context):
-    context.driver = webdriver.Chrome()
+    # context.driver = webdriver.Chrome()
+    context.driver = webdriver.Firefox()
 
 
 @when("open sign_up_login paqe")
 def open_signup_page(context):
-    context.driver.get(obj.url)
+    context.driver.get(obj.sandbox_signup_url)
 
 
 @then("Verify Sign up no button")
