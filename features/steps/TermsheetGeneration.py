@@ -172,11 +172,16 @@ def step_impl(context):
             time.sleep(2)
             context.driver.find_element(By.XPATH, obj.Your_Company_Website_xpath).send_keys(obj.company_web_url)
             time.sleep(2)
-            context.driver.find_element(By.XPATH, obj.your_mobile_no_xpath).send_keys(obj.your_mobile_no)
+            # context.driver.find_element(By.XPATH, obj.your_mobile_no_xpath).send_keys(obj.your_mobile_no)
+            mobile_input = context.driver.find_element(By.XPATH, obj.your_mobile_no_xpath)
+            mobile_number = generate_random_mobile_number()
+            mobile_input.send_keys(mobile_number)
+
             time.sleep(2)
             context.driver.find_element(By.XPATH, obj.your_email_xpath).send_keys(obj.your_email)
             time.sleep(2)
             context.driver.find_element(By.XPATH, obj.your_name_xpath).send_keys(obj.your_name)
+
             time.sleep(2)
 
             context.driver.find_element(By.XPATH, obj.next_xpath).click()
@@ -225,7 +230,7 @@ def step_impl(context):
             # time.sleep(2)
 
             context.driver.find_element(By.XPATH, obj.submit_button_xpath).click()
-            time.sleep(30)
+            time.sleep(35)
 
 
 @then("verify Term-Sheet Generated")
