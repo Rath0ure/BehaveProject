@@ -68,6 +68,10 @@ class ClassName:
     fund_deploy_in_velocity = "//body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[4]/div[1]/div[3]"
     submit_button_xpath = "//button[@class='ant-btn button___200ZM']"
     Application_Submitted = "//p[@class='applicationStatus___3-JXn']"
+    Name_is_required = "//p[normalize-space()='Name is required']"
+    Email_address_is_required = "//p[normalize-space()='Email Address is required']"
+    Phone_no_is_required = "//p[normalize-space()='Phone Number is required']"
+    password_is_required = "//p[normalize-space()='Password is required']"
 
 
 obj = ClassName()

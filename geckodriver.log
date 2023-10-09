@@ -9913,3 +9913,229 @@ JavaScript warning: https://dashboard.stagingvelocity.in/assets/index-1fdbe873.j
 ht@https://dashboard.stagingvelocity.in/assets/index-1fdbe873.js:226:43600
 @https://dashboard.stagingvelocity.in/assets/index-1fdbe873.js:226:60762
 
+1696592916976	geckodriver	INFO	Listening on 127.0.0.1:56612
+1696592917484	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofilemult0U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-06 17:18:37.808 firefox[36384:4919279] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696592918034	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696592918249	Marionette	INFO	Listening on port 56626
+Read port: 56626
+WebDriver BiDi listening on ws://127.0.0.1:56613
+1696592918497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56613/devtools/browser/821c8c06-7739-4e0b-b296-b68c694b17dd
+1696593140906	geckodriver	INFO	Listening on 127.0.0.1:57594
+1696593141427	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofileM1YeuQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-06 17:22:21.765 firefox[36698:4924753] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696593141992	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696593142250	Marionette	INFO	Listening on port 57604
+Read port: 57604
+WebDriver BiDi listening on ws://127.0.0.1:57595
+1696593142433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57595/devtools/browser/e37fc5e3-1f9d-4948-af17-54ce4a651d66
+1696593144650	Marionette	INFO	Stopped listening on port 56626
+1696593221954	geckodriver	INFO	Listening on 127.0.0.1:57983
+1696593222470	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofile2OrHC5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-06 17:23:42.797 firefox[36831:4926792] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696593223020	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696593223195	Marionette	INFO	Listening on port 58006
+Read port: 58006
+WebDriver BiDi listening on ws://127.0.0.1:57984
+1696593223454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57984/devtools/browser/8c571175-92dc-4ef3-a695-e3459b51a585
+1696593231299	Marionette	INFO	Stopped listening on port 58006
+JavaScript warning: https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js, line 37: Script terminated by timeout at:
+Yb@https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js:37:17342
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 301 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914, line 43: Script terminated by timeout at:
+Qa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:350
+Ra@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:283
+yk/c/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:195:292
+m.qd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+hk/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:362
+fk/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:186:1013
+Oa.prototype.Na/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:162
+hk/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:371
+m.qd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+hk/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:362
+fk/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:186:1013
+Oa.prototype.Na/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:162
+hk/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:371
+m.qd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+od/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:93:671
+
+JavaScript error: https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js, line 1: Error: Cannot instantiate firebase-analytics.js - be sure to load firebase-app.js first.
+JavaScript error: https://www.cricbuzz.com/live-cricket-scores/75420/pak-vs-ned-2nd-match-icc-cricket-world-cup-2023, line 19: ReferenceError: firebase is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 1731 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 2603 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/bK4GZl0mtHPwIamiN73ahbbApyVSn2vIx_eFPB1ZZt0.js line 2 > eval line 799 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-4H06J8XXQH&l=dataLayer&cx=c, line 432: Script terminated by timeout at:
+aa.mh@https://www.googletagmanager.com/gtag/js?id=G-4H06J8XXQH&l=dataLayer&cx=c:432:89
+get@https://www.googletagmanager.com/gtag/js?id=G-4H06J8XXQH&l=dataLayer&cx=c:430:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-4H06J8XXQH&l=dataLayer&cx=c:430:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-4H06J8XXQH&l=dataLayer&cx=c:430:412
+
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914, line 258: Script terminated by timeout at:
+ao/a<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:258:85
+Nc.prototype.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:85:513
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.qa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:91:135
+Yc.prototype.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:87:1378
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+yk/c/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:195:320
+Sa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:44:339
+Pa.prototype.flush@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:44:127
+Ra@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:330
+yk/c/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:195:292
+m.qd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+hk/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:362
+fk/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:186:1013
+Oa.prototype.Na/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:162
+hk/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:371
+m.qd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+hk/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:362
+fk/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:186:1013
+Oa.prototype.Na/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:162
+hk/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:187:371
+m.qd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.o@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+od/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1696595130571	geckodriver	INFO	Listening on 127.0.0.1:49721
+1696595131092	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofilemQB1F4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-06 17:55:31.426 firefox[38956:4964112] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696595131687	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696595132063	Marionette	INFO	Listening on port 49731
+WebDriver BiDi listening on ws://127.0.0.1:49722
+Read port: 49731
+1696595132284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49722/devtools/browser/585d5504-8422-4bd9-9bee-9b75a2ed3d18
+1696595140236	Marionette	INFO	Stopped listening on port 49731
+JavaScript warning: https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js, line 37: Script terminated by timeout at:
+Yb@https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js:37:17342
+
+1696670674996	geckodriver	INFO	Listening on 127.0.0.1:62429
+1696670675508	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofileIHtkiQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-07 14:54:35.894 firefox[45311:5046477] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696670676298	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696670676589	Marionette	INFO	Listening on port 62452
+Read port: 62452
+WebDriver BiDi listening on ws://127.0.0.1:62430
+1696670676839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62430/devtools/browser/f741b961-6cd3-4d3e-96d9-41e5f91d836e
+1696670681331	Marionette	INFO	Stopped listening on port 57604
+1696670686014	Marionette	INFO	Stopped listening on port 62452
+JavaScript warning: https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js, line 37: Script terminated by timeout at:
+Yb@https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js:37:17342
+
+1696670775395	geckodriver	INFO	Listening on 127.0.0.1:62923
+1696670775404	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofileELEfq5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-07 14:56:15.720 firefox[45473:5049233] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696670775950	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696670776130	Marionette	INFO	Listening on port 62931
+Read port: 62931
+WebDriver BiDi listening on ws://127.0.0.1:62924
+1696670776395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62924/devtools/browser/81ce99ac-75a7-4f05-9ad9-8ba8f873aea4
+1696670785540	Marionette	INFO	Stopped listening on port 62931
+JavaScript warning: https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js, line 37: Script terminated by timeout at:
+Yb@https://sandbox-dashboard.stagingvelocity.in/assets/index-ab22a699.js:37:17342
+
+1696674583313	geckodriver	INFO	Listening on 127.0.0.1:56380
+1696674583826	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofileXmoN45"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-07 15:59:44.161 firefox[48271:5093750] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696674584392	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696674584606	Marionette	INFO	Listening on port 56399
+Read port: 56399
+WebDriver BiDi listening on ws://127.0.0.1:56381
+1696674584859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56381/devtools/browser/644488ae-8a46-4177-938d-0b8095aab474
+1696674614112	Marionette	INFO	Stopped listening on port 56399
+JavaScript warning: https://script.hotjar.com/modules.9b99185f84da153d26eb.js, line 2: Script terminated by timeout at:
+u/g.tryCatch/<@https://script.hotjar.com/modules.9b99185f84da153d26eb.js:2:87791
+
+JavaScript error: resource://gre/modules/NewTabUtils.sys.mjs, line 639: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource://gre/modules/AddonManager.sys.mjs, line 1284: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1696674777406	geckodriver	INFO	Listening on 127.0.0.1:57259
+1696674777926	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofilehfoFzX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-07 16:02:58.253 firefox[48518:5098169] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696674778493	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696674778729	Marionette	INFO	Listening on port 57273
+Read port: 57273
+WebDriver BiDi listening on ws://127.0.0.1:57260
+1696674779005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57260/devtools/browser/4cc086e4-ee2c-491a-a6a0-d54ce94ebb92
+1696674808351	Marionette	INFO	Stopped listening on port 57273
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 321))
+1696674808835	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+1696686523042	geckodriver	INFO	Listening on 127.0.0.1:63016
+1696686523564	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/v_vmq42970b0rd23k30t9fkm0000gp/T/rust_mozprofileqMuuW3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-10-07 19:18:43.917 firefox[50627:5129463] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1696686524413	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696686524884	Marionette	INFO	Listening on port 63039
+WebDriver BiDi listening on ws://127.0.0.1:63017
+Read port: 63039
+1696686525084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63017/devtools/browser/1349c289-b728-410f-94c6-6fde221d5504
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dashboard.stagingvelocity.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dashboard.stagingvelocity.in."
+JavaScript error: https://dashboard.stagingvelocity.in/auth/otp_verify line 492 > injectedScript, line 1: TypeError: engtBot is null
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript error: https://app.factors.ai/assets/v1/factors.js, line 1: TypeError: n is null
+1696686619291	Marionette	INFO	Stopped listening on port 63039
+JavaScript warning: https://script.hotjar.com/modules.9b99185f84da153d26eb.js, line 2: Script terminated by timeout at:
+e<@https://script.hotjar.com/modules.9b99185f84da153d26eb.js:2:42381
+
