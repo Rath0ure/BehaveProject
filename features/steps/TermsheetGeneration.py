@@ -9,11 +9,13 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from features.steps.RandomMobileOtp import *
 from features.steps.webElements_helper import *
+from SeleniumHelper import SeleniumHelper
 
 
 @step("enter mobile no")
 def EnterMobileNo(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_mobile_no_field)
+    context.driver.implicitly_wait(30)
     mobile_input = context.driver.find_element(By.XPATH, obj.signup_mobile_no_field)
     mobile_number = generate_random_mobile_number()
     mobile_input.send_keys(mobile_number)
@@ -21,43 +23,50 @@ def EnterMobileNo(context):
 
 @step("enter password")
 def EnterOtp(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_password_field)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.signup_password_field).send_keys("123456")
 
 
 @step("enter name")
 def Name(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_your_name_field)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.signup_your_name_field).send_keys("Raghuraj Pratap Singh")
 
 
 @step("enter email address")
 def step_impl(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_emailAddress_filed)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.signup_emailAddress_filed).send_keys("Raghuraj+777@velocity.in")
 
 
 @step("click on sign up button")
 def SIGN_UP_BUTTON(context):
-    context.driver.implicitly_wait(20)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_signup_button)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.signup_signup_button).click()
 
 
 @step("enter otp for")
 def EnterOtp(context):
-    context.driver.implicitly_wait(20)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.enter_otp_xpath)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.enter_otp_xpath).send_keys("123456")
 
 
 @step("click on confirm")
 def click_on_confirm(context):
-    context.driver.implicitly_wait(20)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.clk_confirm_sign_otp_xpath)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.clk_confirm_sign_otp_xpath).click()
 
 
 @then("verify get started string")
 def get_start(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.get_started_finance_xpath)
+    context.driver.implicitly_wait(30)
     try:
         text = context.driver.find_element(By.XPATH, obj.get_started_finance_xpath).text
     except:
@@ -70,13 +79,15 @@ def get_start(context):
 
 @step('click on Finance')
 def click_on_finance(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.get_started_finance_xpath)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.get_started_finance_xpath).click()
 
 
 @then("verify get started string on card")
 def Get_started_card(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.get_started_card_xpath)
+    context.driver.implicitly_wait(30)
     try:
         text = context.driver.find_element(By.XPATH, obj.get_started_card_xpath).text
     except:
@@ -89,7 +100,8 @@ def Get_started_card(context):
 
 @then("verify get started string on payments")
 def step_impl(context):
-    context.driver.implicitly_wait(20)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.get_started_payments_xpath)
+    context.driver.implicitly_wait(30)
     try:
         text = context.driver.find_element(By.XPATH, obj.get_started_payments_xpath).text
     except:
@@ -102,13 +114,16 @@ def step_impl(context):
 
 @step("click on get started")
 def step_impl(context):
-    context.driver.implicitly_wait(20)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.get_started_finance_xpath)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.get_started_finance_xpath).click()
 
 
 @then("verify apply now button get started page")
 def apply_now(context):
-    context.driver.implicitly_wait(20)
+
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.apply_now_xpath)
+    context.driver.implicitly_wait(30)
     try:
         text = context.driver.find_element(By.XPATH, obj.apply_now_xpath).text
     except:
@@ -121,6 +136,7 @@ def apply_now(context):
 
 @step("verify apply now button get started page")
 def apply_now(context):
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.apply_now_xpath)
     context.driver.implicitly_wait(30)
     try:
         text = context.driver.find_element(By.XPATH, obj.apply_now_xpath).text
@@ -134,13 +150,15 @@ def apply_now(context):
 
 @step("click on apply now")
 def step_impl(context):
-    context.driver.implicitly_wait(15)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.apply_now_xpath)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.apply_now_xpath)
 
 
 @then("Verify Business type string on the apply pag")
 def Business_type(context):
-    context.driver.implicitly_wait(10)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.apply_now_xpath)
+    context.driver.implicitly_wait(30)
     context.driver.find_element(By.XPATH, obj.apply_now_xpath).click()
     parent_window = context.driver.current_window_handle
     all_windows = context.driver.window_handles
@@ -235,7 +253,8 @@ def step_impl(context):
 
 @then("verify Term-Sheet Generated")
 def TermSheet_Generated(context):
-    context.driver.implicitly_wait(15)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.Application_Submitted)
+    context.driver.implicitly_wait(30)
     try:
         text = context.driver.find_element(By.XPATH, obj.Application_Submitted).text
     except:
