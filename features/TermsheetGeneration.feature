@@ -83,7 +83,7 @@ Feature: Term_sheet login
     And click on apply now
     Then Verify Business type string on the apply pag
 
-
+  @sanity
   Scenario: Generate "Term-sheet"
     Given launch web browser
     When open sign_up paqe
