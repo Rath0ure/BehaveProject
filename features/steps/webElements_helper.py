@@ -1,6 +1,7 @@
 class ClassName:
     url = "https://dashboard.stagingvelocity.in/auth/login"
     stagging_signup_url = "https://dashboard.stagingvelocity.in/auth/signup"
+    stagging_login_url = "https://dashboard.stagingvelocity.in/auth/login"
     sandbox_signup_url = "https://sandbox-dashboard.stagingvelocity.in/auth/signup"
     textbox_username_Xpath = "//input[@placeholder='Email OR Phone']"
     textbox_password_Xpath = "//input[@placeholder='********']"

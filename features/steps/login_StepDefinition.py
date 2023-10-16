@@ -12,7 +12,7 @@ def launch_web(context):
 
 @when("open sign_up_login paqe")
 def open_signup_page(context):
-    context.driver.get(obj.sandbox_signup_url)
+    context.driver.get(obj.stagging_login_url)
 
 
 @then("Verify Sign up no button")
