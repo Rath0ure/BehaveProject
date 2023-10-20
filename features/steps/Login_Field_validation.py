@@ -53,3 +53,7 @@ def password_required(context):
         context.driver.quit()
         assert True, "Test pass"
 
+
+@step("click on login/Sign_up button")
+def step_impl(context):
+    context.driver.find_element(By.XPATH,obj.signup_signup_button).click()

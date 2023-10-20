@@ -44,9 +44,9 @@ def step_impl(context):
 
 @step("click on sign up button")
 def SIGN_UP_BUTTON(context):
-    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_signup_button)
+    SeleniumHelper(context.driver).wait_till_element_is_present(obj.signup_now_xpath)
     context.driver.implicitly_wait(30)
-    context.driver.find_element(By.XPATH, obj.signup_signup_button).click()
+    context.driver.find_element(By.XPATH, obj.signup_now_xpath).click()
 
 
 @step("enter otp for")
@@ -263,3 +263,9 @@ def TermSheet_Generated(context):
     if text == "Application Submitted":
         context.driver.quit()
         assert True, "Test Passed"
+
+
+@step("click on signup button")
+def sign_up(context):
+    context.driver.implicitly_wait(10)
+    context.driver.find_element(By.XPATH,obj.signup_signup_button).click()

@@ -33,6 +33,7 @@ class ClassName:
     signup_password_field = "//input[@placeholder='********']"
     signup_emailAddress_filed = "//input[@placeholder='name@company.com']"
     signup_signup_button = "//span[normalize-space()='SIGN UP']"
+    signup_now_xpath = "//a[@id='b_signin_link_to_signup']"
     enter_otp_xpath = "//input[@placeholder='123456']"
     get_started_finance_xpath = "//button[@id='b_get_started_product_Finance']"
     clk_confirm_sign_otp_xpath = "//button[@id='b_verifyotp_submit']"

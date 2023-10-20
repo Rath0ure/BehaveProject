@@ -7,7 +7,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     Then verify get started string
@@ -20,7 +20,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     Then verify get started string on card
@@ -33,7 +33,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     Then verify get started string on payments
@@ -46,7 +46,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     And click on get started
@@ -60,7 +60,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     And click on get started
@@ -75,7 +75,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     And click on get started
@@ -91,7 +91,7 @@ Feature: Term_sheet login
     And enter password
     And enter name
     And enter email address
-    And click on sign up button
+    And click on signup button
     And enter otp for
     And click on confirm
     And click on get started
